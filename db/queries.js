@@ -52,6 +52,21 @@ const updateEmployeeRole = async (employee_id, role_id) => {
     return res.rows[0];
 };
 
+const getRoles = async () => {
+    const res = await pool.query('SELECT id, title FROM role');
+    return res.rows;
+};
+
+const getDepartments = async () => {
+    const res = await pool.query('SELECT id, name FROM department');
+    return res.rows;
+};
+
+const getEmployees = async () => {
+    const res = await pool.query('SELECT id, first_name, last_name FROM employee');
+    return res.rows;
+};
+
 module.exports = {
     viewDepartments,
     viewRoles,
@@ -60,4 +75,7 @@ module.exports = {
     addRole,
     addEmployee,
     updateEmployeeRole,
+    getRoles,
+    getDepartments,
+    getEmployees
 };
