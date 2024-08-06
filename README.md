@@ -7,5 +7,5 @@ Employee-Tracker is a command-line application that allows business owners to vi
 The application is designed to run from the command line. A user can install the node dependencies, connect to the database and then follow the prompts in the terminal to interact with the Employee-Tracker data. 
 
 ## Video Demonstration
-[Link to Video](https://drive.google.com/file/d/1HyBvFkg6SQ81GWjAeUzWCIDLAqCtyw6w/view)
+[Link to Video](https://drive.google.com/file/d/1QEJQ3YiY2MxyLJno_8juQqeatkeQ8BCP/view)
 
